@@ -85,7 +85,8 @@ class Update extends AbstractEndpoint
             'ttl',
             'version',
             'version_type',
-            '_source'
+            '_source',
+            'doc_as_upsert',
         );
     }
 
